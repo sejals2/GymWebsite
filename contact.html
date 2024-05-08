@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Fitness Club</title>
+    <style>
+        /* Internal CSS styles for the Contact Us page */
+        body {
+            font-family: "Trirong", serif;
+            color: white;
+            margin: auto;
+            padding: 0;
+            background: url("img/bg.jpg");
+        }
+
+        .header {
+            position: relative;
+        }
+
+        .left {
+            position: absolute;
+            left: 38px;
+            top: 20px;
+            display: inline-block;
+        }
+
+        .left img {
+            width: 90px;
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 26px;
+        }
+
+        .mid {
+            display: block;
+            width: 40%;
+            margin: 70px auto;
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            color: white;
+            display: inline-block;
+            font-size: 23px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 1px 5px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .container {
+            margin: 50px auto;
+            padding: 30px;
+            width: 80%;
+            max-width: 800px;
+            background-color: none;
+            border-radius: 16px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            font-size: 30px;
+        }
+
+        .container h5 {
+            text-align: center;
+        }
+
+        .contact-info {
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+            font-size: 23px;
+        
+        }
+
+        /*button.btn {
+            display: block;
+            margin: 0 auto;
+        }*/
+        .btn{
+            font-family: "Trirong", serif;
+             margin:0px 9px;
+             color:white;
+             background-color: black;
+             padding: 4px 14px;
+             border: 2px solid grey;
+             border-radius: 12px;
+             font-size: 15px;
+             cursor:pointer;
+            }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/gym.jpg" alt="">
+            <div>Fitness Club</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h5>Contact Us</h5>
+        <div class="contact-info">
+            <p><strong>Location:</strong> 123 Fitness Street, City, Country</p>
+            <p><strong>Contact Number:</strong> +1234567890</p>
+            <p><strong>Email:</strong> info@fitnessclub.com</p>
+            <p><strong>Hours of Operation:</strong> Monday to Friday, 8:00 AM - 9:00 PM</p>
+        </div>
+        <p>Feel free to visit us during our operating hours or contact us via phone or email for any inquiries.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

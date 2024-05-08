@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facilities - Fitness Club</title>
+    <style>
+        /* Internal CSS styles for the Facilities page */
+        body {
+            font-family: "Trirong", serif;
+            color: white;
+            margin: auto;
+            padding: 0;
+            background: url("img/bg.jpg");
+        }
+
+        .header {
+            position: relative;
+        }
+
+        .left {
+            position: absolute;
+            left: 38px;
+            top: 20px;
+            display: inline-block;
+        }
+
+        .left img {
+            width: 90px;
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 26px;
+        }
+
+        .mid {
+            display: block;
+            width: 40%;
+            margin: 70px auto;
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            color: white;
+            display: inline-block;
+            font-size: 23px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 1px 5px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .btn {
+            font-family: "Trirong", serif;
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 12px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(103, 99, 99);
+        }
+
+        .container {
+            margin: 50px auto;
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+            background-color: none;
+            border-radius: 16px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .facility {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .facility img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .facility p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/gym.jpg" alt="">
+            <div>Fitness Club</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="facilities.html" class="active">Facilities</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>[Our Facilities]</h1>
+        <div class="facility">
+            <img src="img/facility1.jpg" alt="">
+            <p>State-of-the-art Gym Equipment</p>
+        </div>
+        <div class="facility">
+            <img src="img/facility2.jpg" alt="">
+            <p>Group Fitness Classes</p>
+        </div>
+        <div class="facility">
+            <img src="img/facility3.jpg" alt="">
+            <p>Indoor Swimming Pool</p>
+        </div>
+        <div class="facility">
+            <img src="img/facility3.jpg" alt="">
+            <p>Zumba Classes</p>
+        </div>
+        <div class="facility">
+            <img src="img/facility3.jpg" alt="">
+            <p>Yoga Trainer</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
